@@ -26,7 +26,7 @@ For this project, you’ll design the tables to hold the data from the CSV files
     - Data Retrieval Language (DRL)
         - `SELECT`
         - `FROM`
-        - Wildcards
+        - `LIKE` - Wildcards
         - `WHERE`
         - `ORDER BY DESC`
         - `GROUP BY`
@@ -36,3 +36,11 @@ For this project, you’ll design the tables to hold the data from the CSV files
             - `WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31'`
         - `JOIN`
         - Aggregating Data
+- DBeaver / pgAdmin4
+    - Importing CSVs
+        - Without creating tables
+        - With initially creating tables
+            - Making sure data types are accurate
+        - With psql commands
+    - Creating databases
+    - Creating ERD's in DBeaver
